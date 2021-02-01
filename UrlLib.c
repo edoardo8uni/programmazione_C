@@ -14,11 +14,11 @@ void InsTesta(List *pl, Visita v){
      *pl = aux; 
 }
 void aggiorna(List *pl, Visita v){
-    while(*pl && strcmp((*pl)->v.url,v.url) == 1){
+    while(*pl && strcmp((*pl)->v.url, v.url) != 0){
+
         pl = &(*pl)->next;
     }
         if (*pl == NULL){
-            printf("Null");
             InsTesta(pl,v);
                      }
 
@@ -27,7 +27,7 @@ void aggiorna(List *pl, Visita v){
 
 void stampa(List l){
     while(l){
-        printf("%s %d", l->v.url, l->v.OraUltima);
+        printf("%s %d\n", l->v.url, l->n_visite);
         l = l->next;
     }
 }

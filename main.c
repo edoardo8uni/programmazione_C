@@ -15,7 +15,7 @@ int main(int argc, char* argv[]){
             //printf("%s", v.url);
                 aggiorna(&l,v);
         }
-//stampa(l);
+stampa(l);
 
 
 }
