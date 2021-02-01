@@ -6,3 +6,4 @@ main.o: main.c UrlLib.h
 
 UrlLib.o: UrlLib.c UrlLib.h
 	gcc -c UrlLib.c
+
