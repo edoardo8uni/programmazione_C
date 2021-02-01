@@ -22,7 +22,7 @@ void aggiorna(List *pl, Visita v){
             InsTesta(pl,v);
                      }
 
-    //(*pl)->n_visite +=1;
+    (*pl)->n_visite +=1;
 }
 
 void stampa(List l){
