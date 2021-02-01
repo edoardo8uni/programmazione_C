@@ -1,0 +1,17 @@
+/*int criterio(int ora1, int ora2, int minuti1, int minuti2){  
+    //se v1 prima di v2 ritorna 1 
+    if (ora1 < ora2)
+        return 1;
+    if (ora1 == ora2 && minuti1 < minuti2)
+        return 1;
+    else return 0;
+}
+
+void tempi(List *pl, Visita v){
+
+        if( criterio((*pl)->Ore, v.OraUltima, (*pl)->Min, v.MinutiUltima) == 1){
+            (*pl)->Min = v.MinutiUltima;
+            (*pl)->Ore = v.OraUltima;
+        }
+
+    }*/

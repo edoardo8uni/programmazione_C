@@ -1,0 +1,35 @@
+[33mcommit e270895d390bc09efdbd2925916dc1f3437bfbef[m
+Author: Studente <studente@debian>
+Date:   Mon Feb 1 23:46:59 2021 +0100
+
+    1.0
+
+[33mcommit 99a7a908884b789b3335f367dda887c798780eda[m
+Author: Studente <studente@debian>
+Date:   Mon Feb 1 23:40:31 2021 +0100
+
+    incremento n_visite
+
+[33mcommit 1dd0422632aee5ebcd31189aea4b261e1763d563[m
+Author: Studente <studente@debian>
+Date:   Mon Feb 1 23:39:09 2021 +0100
+
+    errore risolto: comparazione stringhe errata
+
+[33mcommit eda5958a62dc22b7f5ef902931b1c7205d3673d2[m
+Author: Studente <studente@debian>
+Date:   Mon Feb 1 23:23:24 2021 +0100
+
+    lettura corretta
+
+[33mcommit c83ffae9465adcfdcdbfd00673ed727d877737c2[m
+Author: Studente <studente@debian>
+Date:   Mon Feb 1 23:01:44 2021 +0100
+
+    GITIGNORE added
+
+[33mcommit 7a69b339093313952bbfc96f397e2c76f85175f5[m
+Author: Studente <studente@debian>
+Date:   Mon Feb 1 22:55:47 2021 +0100
+
+    first commit

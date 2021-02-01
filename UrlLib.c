@@ -20,7 +20,6 @@ void aggiorna(List *pl, Visita v){
         pl = &(*pl)->next;
     }
         if (*pl == NULL){
-            printf("cia");
            InsTesta(pl,v);
                      }
 
@@ -34,7 +33,7 @@ void stampa(List l){
         l = l->next;
     }
 }
-int criterio(int ora1, int ora2, int minuti1, int minuti2){  
+/*int criterio(int ora1, int ora2, int minuti1, int minuti2){  
     //se v1 prima di v2 ritorna 1 
     if (ora1 < ora2)
         return 1;
@@ -50,4 +49,4 @@ void tempi(List *pl, Visita v){
             (*pl)->Ore = v.OraUltima;
         }
 
-    }
+    }*/
