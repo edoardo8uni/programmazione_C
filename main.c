@@ -12,9 +12,10 @@ int main(int argc, char* argv[]){
             if(f == NULL)
                 printf("errore nell' apertura di %s", argv[1]);
         while(fread(&v,sizeof(Visita),1,f) == 1){
+            //printf("%s", v.url);
                 aggiorna(&l,v);
         }
-
+//stampa(l);
 
 
 }

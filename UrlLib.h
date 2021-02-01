@@ -15,3 +15,4 @@ typedef Nodo* List;
 //FUNZIONI
 void NewList(List *pl);
 void aggiorna(List *pl, Visita v);
+void stampa(List l);
